@@ -9,8 +9,4 @@ public class oneCharReplace {
         return result.toString();
     }
 
-    public static void main(String[] args) {
-
-    }
-
 }
