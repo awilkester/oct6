@@ -9,7 +9,7 @@ public class delPhrase {
      */
     public static String delPhrase(String input, String x){
         StringBuilder result = new StringBuilder(input);
-        result.delete(input.indexOf(x), input.indexOf(x) + input.length());
+        result.delete(input.indexOf(x), input.indexOf(x) + x.length() + 1);
         return result.toString();
     }
 }
