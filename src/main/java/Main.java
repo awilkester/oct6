@@ -39,7 +39,7 @@ public class Main {
             d = t.nextLine();
             allPhraseReplace aPR = new allPhraseReplace();
             System.out.println(aPR.allPhraseReplace(inputStart, c, d));
-            System.out.println("Now we are going to one instance of a phrase from the text \n" +
+            System.out.println("Now we are going delete one instance of a phrase from the text \n" +
                     "Please input a phrase to be deleted from the input text.");
             c = t.nextLine();
             delPhrase dP = new delPhrase();
